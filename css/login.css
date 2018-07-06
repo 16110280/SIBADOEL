@@ -1,0 +1,123 @@
+$color: #1abc9c;
+body{
+    margin:0 auto;
+}
+form {
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+    border:solid 1px #ddd;
+    margin:auto;
+    right:0;
+    left:0;
+    position:fixed;
+    width:300px;
+    border-radius:2px;
+    background:#eee;
+    padding:25px 30px;
+}
+h2{
+    text-align:center;
+    padding:0 10px;
+    color:#455; 
+    font-family:Georgia; 
+    font-weight:normal;
+}
+h1{
+    text-align:center;
+}
+.wrapper{
+    
+}
+.header{
+    font-family: 'roboto', sans-serif;
+    transition: all 0.3s ease-in-out;
+    border:solid 1px;
+    font-size:12px;
+    margin:-25px -30px 30px -30px;
+    padding:5px 30px;
+    background: #24423a ;
+    color:#fff;
+    border:solid 1px #446CB3;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+    border-radius:3px 3px 0 0;
+}
+.submit{
+    margin-top:20px; 
+    width:100%; 
+    color:#fff; 
+    background: #24423a ; 
+    border:none;
+    font-size:14px; 
+    padding:5px; 
+    margin-bottom:-30px;
+}
+input[type="text"], input[type="password"]{
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+    width:100%; 
+    text-align:center;
+    margin-top:5px;
+    padding:5px 0;
+    border:none;
+    margin-bottom:5px;
+    border-bottom: solid 1px $color;
+  transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 96%, $color 4%);
+  background-position: -200px 0;
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  color: darken($color, 20%);
+  &:focus, &:valid {
+    box-shadow: none;
+    outline: none;
+    background-position: 0 0;
+    &::-webkit-input-placeholder {
+      color: $color;
+      transform: translateY(-20px);
+      visibility: visible !important;
+    }
+  }
+}
+
+
+.sosmed-img {
+    width:auto;
+    vertical-align:middle;
+    height:22px;
+    position:absolute;
+    left:8px;
+}
+
+.o-layout__item {
+    width:100%;
+    text-align:center;
+    position:relative;
+}
+.wrap-sosmed{
+    border:solid 1px #888;
+    background:#ddd;
+    width:100%;
+    margin-bottom:5px;
+    padding:5px;
+}
+
+.c-btn__text{
+    color:#000;
+}
+
+.forgot, a {
+    color:#455;
+    text-align:center;
+    font-size:14px; 
+    text-decoration:none;
+    margin-top:20px;
+}
+img{
+    width:auto;
+    height:200px;
+    margin-bottom:-60px;
+
+}
+.image{
+    text-align:center;
+}
