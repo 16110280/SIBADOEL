@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" type="image/png" href="images/pw.png">
+<title>SIBADOEL | TRANSAKSI BARANG DOELOE</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/animate.css" rel='stylesheet' type='text/css'>
+<script src="js/jquery.min.js"></script>
+<link href="css/hover.css" rel="stylesheet" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="css/easy-responsive-tabs.css" />
+<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#horizontalTab').easyResponsiveTabs({
+            type: 'default',            
+            width: 'auto', 
+            fit: true,  
+            closed: 'accordion', 
+            activate: function(event) { 
+                var $tab = $(this);
+                var $info = $('#tabInfo');
+                var $name = $('span', $info);
+                $name.text($tab.text());
+                $info.show();
+            }
+        });
+
+        $('#verticalTab').easyResponsiveTabs({
+            type: 'vertical',
+            width: 'auto',
+            fit: true
+        });
+    });
+</script>
+</head>
+<body>
+<div class="header">
+	 <div class="container">
+		 <div class="header-left">
+			 <div class="top-menu">
+				 <ul>
+				 <li class="active"><a href="index.html">HOME</a></li>
+				 <li><a href="klasik.html">KLASIK</a></li>
+				 <li><a href="vintage.html">VINTAGE</a></li>			 
+				 </ul>
+				 <script>
+						$("span.menu").click(function(){
+							$(".top-menu ul").slideToggle("slow" , function(){
+							});
+						});
+				 </script>
+			 </div>
+		 </div>
+		 <div class="logo animated rubberBand">
+			 <a href="index.html"><img src="images/logo.png" alt=""/></a>
+		 </div>
+		 <div class="header-right">		 
+			 <div class="signin">
+				  <div class="cart-sec">
+				  <a href="cart.html"><img href="cart.html" src="images/cart.png" alt=""/>(0)</a></div>
+				  <ul>
+					 <li><a href="registration.html">REGISTRATION</a> <span>/<span> &nbsp;</li>
+					 <li><a href="login.html"> LOGIN</a></li>
+				 </ul>			 
+			 </div>
+		 </div>
+		 <div class="clearfix"></div>
+	 </div>
+</div>
+<script src="js/responsiveslides.min.js"></script>
+  <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	speed: 500,
+        manualControls: '#slider3-pager',
+      });
+    });
+  </script>
+</head>
+<body>
+ <div class="slider">
+	  <div class="callbacks_container">
+	     <ul class="rslides" id="slider">
+	         <li>
+				  <img src="images/bckg2.jpg" alt="">
+				  <div class="banner-info">
+				  <h3 class="animated rollIn">Vintage</h3>
+				  <p>Menyediakan berbagai macam barang-barang kuno seperti mata uang,perhiasan,dll</p>
+				  </div>
+	         </li>
+	         <li>
+				 <img src="images/backgroundlagi.png" alt="">
+	        	 <div class="banner-info">
+	        	 <h3 class="animated rollIn">Klasik</h3>
+	        	 <p>Barang antik dengan gaya classic-modern seperti alat musik,pemutar musik,dll</p>
+				 </div>
+			 </li>
+	      </ul>
+	  </div>
+  </div>
+<div class="tab-section">
+	 <div class="wrap">
+		 <div id="horizontalTab">
+			   <ul class="resp-tabs-list">
+					<li><a href="#">FEATURED</a></li>
+					<li class="active"><a href="#">JUST ARRIVED</a></li>
+					<li><a href="#">SALE</a></li>
+					<div class="clearfix"></div>				
+			   </ul>
+			   <div class="resp-tabs-container">
+				 <div>
+					 <div class="course_demo1">
+							 <ul id="flexiselDemo1">	
+								 <li class="g1">						
+									 <img src="images/c1.jpg" alt="" />		
+										<a href="single.html"><div class="caption">
+										<span></span>
+										<h3>KOIN EMAS NENEK</h3>
+										<h5>Rp 1.800.000</h5>
+										</div></a>
+										<div class="clearfix"></div>
+								 </li>
+								 <li class="g1">						
+									 <img src="images/c2.jpg" alt="" />
+									 <a href="single.html"><div class="caption">
+										<span></span>
+										<h3>KOIN EMAS KUPU-KUPU</h3>
+										<h5>Rp 1.200.000</h5>
+										</div></a>
+										<div class="clearfix"></div>
+								 </li>
+								 <li class="g1">						
+									 <img src="images/c3.jpg" alt="" />					
+									 <a href="single.html"><div class="caption">
+										<span></span>
+										<h3>HIASAN NAGA KEPALA DUA</h3>
+										<h5>Rp 1.500.000</h5>
+										</div></a>
+										<div class="clearfix"></div>
+								 </li>
+								 <li class="g1">						
+									 <img src="images/c4.jpg" alt="" />					
+									 <a href="single.html"><div class="caption">
+										<span></span>
+										<h3>KERANG EMAS</h3>
+										<h5>Rp 3.200.000</h5>
+										</div></a>
+										<div class="clearfix"></div>
+								 </li>
+								 <li class="g1">						
+									 <img src="images/c5.jpg" alt="" />					
+									 <a href="single.html"><div class="caption">
+										<span></span>
+										<h3>PERTAPA EMAS</h3>
+										<h5>Rp 2.400.000</h5>
+										</div></a>
+										<div class="clearfix"></div>
+								 </li>
+								 <li class="g1">						
+									 <img src="images/c6.jpg" alt="" />					
+									 <a href="single.html"><div class="caption">
+										<span></span>
+										<h3>KITAB KUNO</h3>
+										<h5>Rp 7.800.000;</h5>
+										</div></a>
+										<div class="clearfix"></div>
+								 </li>
+							 </ul>
+						 </div>
+						  <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+							<script type="text/javascript">
+						 $(window).load(function() {
+							$("#flexiselDemo1").flexisel({
+								visibleItems: 4,
+								animationSpeed: 1000,
+								autoPlay: true,
+								autoPlaySpeed: 3000,    		
+								pauseOnHover: true,
+								enableResponsiveBreakpoints: true,
+								responsiveBreakpoints: { 
+									portrait: { 
+										changePoint:480,
+										visibleItems: 1
+									}, 
+									landscape: { 
+										changePoint:640,
+										visibleItems: 2
+									},
+									tablet: { 
+										changePoint:768,
+										visibleItems: 3
+									}
+								}
+							});
+							
+						 });
+						  </script>
+						<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+				 </div>
+				 <div>
+					 <div class="course_demo1">
+							 <ul id="flexiselDemo2">	
+								 <li class="g1">						
+									 <img src="images/c4.jpg" alt="" />		
+										<a href="single.html"><div class="caption">
+										<span></span>
+										<h3>KERANG EMAS</h3>
+										<h5>Rp 3.200.000</h5>
+										</div></a>
+										<div class="clearfix"></div>
+								 </li>
+								 <li class="g1">						
+									 <img src="images/c3.jpg" alt="" />
+									 <a href="single.html"><div class="caption">
+										<span></span>
+										<h3>HIASAN NAGA KEPALA DUA</h3>
+										<h5>Rp 1.500.000</h5>
+										</div></a>
+										<div class="clearfix"></div>
+								 </li>
+								 <li class="g1">						
+									 <img src="images/c2.jpg" alt="" />					
+									 <a href="single.html"><div class="caption">
+										<span></span>
+										<h3>KOIN EMAS KUPU-KUPU</h3>
+										<h5>Rp 1.200.000</h5>
+										</div></a>
+										<div class="clearfix"></div>
+								 </li>
+								 <li class="g1">						
+									 <img src="images/c1.jpg" alt="" />					
+									 <a href="single.html"><div class="caption">
+										<span></span>
+										<h3>KOIN EMAS NENEK</h3>
+										<h5>Rp 1.800.000</h5>
+										</div></a>
+										<div class="clearfix"></div>
+								 </li>
+								 <li class="g1">						
+									 <img src="images/c4.jpg" alt="" />					
+									 <a href="single.html"><div class="caption">
+										<span></span>
+										<h3>KERANG EMAS</h3>
+										<h5>Rp 3.200.000</h5>
+										</div></a>
+										<div class="clearfix"></div>
+								 </li>
+								 <li class="g1">						
+									 <img src="images/c1.jpg" alt="" />					
+									<a href="single.html"><div class="caption">
+										<span></span>
+										<h3>PRODUCT NAME</h3>
+										<h5>Rp 1.800.000</h5>
+										</div></a>
+										<div class="clearfix"></div>
+								 </li>
+							 </ul>
+						 </div>
+						  <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+							<script type="text/javascript">
+						 $(window).load(function() {
+							$("#flexiselDemo2").flexisel({
+								visibleItems: 4,
+								animationSpeed: 1000,
+								autoPlay: true,
+								autoPlaySpeed: 3000,    		
+								pauseOnHover: true,
+								enableResponsiveBreakpoints: true,
+								responsiveBreakpoints: { 
+									portrait: { 
+										changePoint:480,
+										visibleItems: 1
+									}, 
+									landscape: { 
+										changePoint:640,
+										visibleItems: 2
+									},
+									tablet: { 
+										changePoint:768,
+										visibleItems: 3
+									}
+								}
+							});
+							
+						 });
+						  </script>
+						<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+				 </div>
+				 <div>
+					 <div class="course_demo1">
+							 <ul id="flexiselDemo3">	
+								 <li class="g1">						
+									 <img src="images/c1.jpg" alt="" />		
+										<a href="single.html"><div class="caption">
+										<span></span>
+										<h3>PRODUCT NAME</h3>
+										<h5>Rp 1.800.000</h5>
+										</div></a>
+										<div class="clearfix"></div>
+								 </li>
+								 <li class="g1">						
+									 <img src="images/c2.jpg" alt="" />
+									 <a href="single.html"><div class="caption">
+										<span></span>
+										<h3>KOIN EMAS KUPU-KUPU</h3>
+										<h5>Rp 1.200.000</h5>
+										</div></a>
+										<div class="clearfix"></div>
+								 </li>
+								 <li class="g1">						
+									 <img src="images/c3.jpg" alt="" />					
+									 <a href="single.html"><div class="caption">
+										<span></span>
+										<h3>HIASAN NAGA KEPALA DUA</h3>
+										<h5>Rp 1.500.000</h5>
+										</div></a>
+										<div class="clearfix"></div>
+								 </li>
+								 <li class="g1">						
+									 <img src="images/c4.jpg" alt="" />					
+									 <a href="single.html"><div class="caption">
+										<span></span>
+										<h3>KERANG EMAS</h3>
+										<h5>Rp 3.200.000</h5>
+										</div></a>
+										<div class="clearfix"></div>
+								 </li>
+								 <li class="g1">						
+									 <img src="images/c1.jpg" alt="" />					
+									 <a href="single.html"><div class="caption">
+										<span></span>
+										<h3>PRODUCT NAME</h3>
+										<h5>Rp 1.800.000</h5>
+										</div></a>
+										<div class="clearfix"></div>
+								 </li>
+								 <li class="g1">						
+									 <img src="images/c3.jpg" alt="" />					
+									<a href="single.html"> <div class="caption">
+										<span></span>
+										<h3>HIASAN NAGA KEPALA DUA</h3>
+										<h5>Rp 1.500.000</h5>
+										</div></a>
+										<div class="clearfix"></div>
+								 </li>
+							 </ul>
+						 </div>
+						  <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+							<script type="text/javascript">
+						 $(window).load(function() {
+							$("#flexiselDemo3").flexisel({
+								visibleItems: 4,
+								animationSpeed: 1000,
+								autoPlay: true,
+								autoPlaySpeed: 3000,    		
+								pauseOnHover: true,
+								enableResponsiveBreakpoints: true,
+								responsiveBreakpoints: { 
+									portrait: { 
+										changePoint:480,
+										visibleItems: 1
+									}, 
+									landscape: { 
+										changePoint:640,
+										visibleItems: 2
+									},
+									tablet: { 
+										changePoint:768,
+										visibleItems: 3
+									}
+								}
+							});
+							
+						 });
+						  </script>
+						<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+	 
+</div>
+<div class="footer">
+<div class="container">
+		 <div class="navigation">
+			 <ul>
+				 <li><a href="about.html">ABOUT</a></li>
+				 <li><a href="karir.html">CAREER</a></li>
+				 <li><a href="contact.html">CONTACT</a></li>
+				 <li><a href="klasik.html">STORE</a></li>
+				 <li><a href="terms.html">TERMS & CONDITION</a></li>
+				 <li><a href="CaraPembelian.html">HOW TO BUY</a></li>
+				 <li><a href="kebijakanprivasi.html">KEBIJAKAN PRIVASI</a></li>
+				 <li><a href="blog.html">BLOG</a></li>
+				 <li><a href="iklan.html">PENGIKLANAN</a></li>
+			 </ul>
+		 </div>
+	 </div>
+	 <br>
+	 <div class="container">
+		 <div class="social">
+			 <a href="#"><span class="icon1"></span></a>
+			 <a href="#"><span class="icon2"></span></a>
+			 <a href="#"><span class="icon3"></span></a>
+			 <a href="#"><span class="icon4"></span></a>
+		 </div>
+		 <div class="clearfix"></div>
+	 </div>	 
+</div>		
+</body>
+</html>
+		
