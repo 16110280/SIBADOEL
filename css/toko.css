@@ -1,0 +1,103 @@
+form {
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+    border:solid 1px #ddd;
+    margin:auto;
+    width:500px;
+    border-radius:2px;
+    background:#eee;
+    padding:25px 30px;
+}
+.logobadul{
+text-align: center;
+}
+.logobadul img{
+    width:auto;
+    height:200px;
+    margin-bottom:-60px;
+
+}
+h2{
+    text-align:center;
+    padding:0 10px;
+    color:#455; 
+    font-family:Georgia; 
+    font-weight:normal;
+}
+h1{
+    text-align:center;
+}
+.wrapper{
+    
+}
+.submit{
+    margin-top:20px; 
+    width:100%; 
+    color:#fff; 
+    background: #24423a ; 
+    border:none;
+    font-size:14px; 
+    padding:5px; 
+    margin-bottom:-30px;
+}
+input[type="text"], input[type="password"]{
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+    width:100%; 
+    text-align:center;
+    margin-top:5px;
+    padding:5px 0;
+    border:none;
+    margin-bottom:5px;
+    border-bottom: solid 1px $color;
+  transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 96%, $color 4%);
+  background-position: -200px 0;
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  color: darken($color, 20%);
+  &:focus, &:valid {
+    box-shadow: none;
+    outline: none;
+    background-position: 0 0;
+    &::-webkit-input-placeholder {
+      color: $color;
+      transform: translateY(-20px);
+      visibility: visible !important;
+    }
+  }
+}
+
+
+.sosmed-img {
+    width:auto;
+    vertical-align:middle;
+    height:22px;
+    position:absolute;
+    left:8px;
+}
+
+.o-layout__item {
+    width:100%;
+    text-align:center;
+    position:relative;
+}
+.wrap-sosmed{
+    border:solid 1px #888;
+    background:#ddd;
+    width:100%;
+    margin-bottom:5px;
+    padding:5px;
+}
+
+.c-btn__text{
+    color:#000;
+}
+
+.forgot, a {
+    color:#455;
+    text-align:center;
+    font-size:14px; 
+    text-decoration:none;
+    margin-top:20px;
+}
